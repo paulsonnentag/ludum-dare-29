@@ -12,20 +12,25 @@
 			font-size: 12pt;
 		}
 		
-		#canvas {
-			position: absolute;
-			left: 0;
-			right: 0;
-			top: 0;
-			bottom: 0;
-			margin: auto;
+		.content {
+      width: 1000px;
+			margin: 45px auto;
 		}
+
+    a:link, a:hover, a:visited {
+      color: #bada55;
+    }
 	</style>
 
 	<script type="text/javascript" src="lib/impact/impact.js"></script>
 	<script type="text/javascript" src="lib/game/main.js"></script>
 </head>
 <body>
-	<canvas id="canvas"></canvas>
+
+  <div class="content">
+    <canvas id="canvas"></canvas>
+    <p>made by Ruben and <a href="http://twitter.com/brackcurly" target="_blank">Paul Sonnentag</a> in 72h</p>
+  </div>
+
 </body>
 </html>
